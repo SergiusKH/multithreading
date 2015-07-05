@@ -3,14 +3,12 @@ package lesson12;
 import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.actor.UntypedActor;
-import scala.util.parsing.combinator.testing.Str;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 import static java.util.Arrays.asList;
-import static lesson12.AkkaUtils.*;
+import static lesson12.AkkaUtils.msg;
 
 /**
  * Created by Sergius on 29.06.2015.
